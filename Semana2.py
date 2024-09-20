@@ -11,5 +11,5 @@ st.header("Ejemplo 1: Enteros")
 st.write("En python, un entero (integer) es un número sin decimales por ejemplo:")
 
 #Definir una variable entera
-int_variable = 42
+int_variable = "42"
 st.code(f"int_variable = {int_variable} # Tipo: {type(int_variable)}")
