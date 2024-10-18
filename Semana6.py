@@ -21,7 +21,7 @@ st.markdown("""
         border: none;
     }
     </style>
-""", unsafe_allow_html=true)
+""", unsafe_allow_html=True)
 
 if st.button("Mostrar números pares entre 0 y 100"):
     pares0a100 = [i for i in range(0,101) if i % 2 == 0]
