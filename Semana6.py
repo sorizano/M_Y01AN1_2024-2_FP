@@ -10,7 +10,7 @@ st.write(pares_0_100)
 
 
 #Ejercicio5 con botón
-st.makdown("""
+st.markdown("""
     <style>
     div.stButton > button{
         background-color: #8B0000;
