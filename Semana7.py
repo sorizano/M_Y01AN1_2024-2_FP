@@ -9,7 +9,7 @@ def verificar_contrasena():
 
     # Repetir hasta que la contraseña sea correcta
     while contrasena_ingresada != contrasena_correcta:
-        contrasena_ingresada = st.text_input("Introduce la contraseña:", type="password")
+        contrasena_ingresada = st.text_input("Introduce la contraseña:", type="password", key="password_input")
         if contrasena_ingresada == contrasena_correcta:
             st.success("Bienvenido")
             break
