@@ -32,7 +32,7 @@ def main():
         resultado = resta(numero1, numero2)
     elif operacion == "Multiplicación":
         resultado = multiplicacion(numero1, numero2)
-    elif operacion == "División"
+    elif operacion == "División":
         resultado = division(numero1, numero2)
     
     #monstrar el resultado
