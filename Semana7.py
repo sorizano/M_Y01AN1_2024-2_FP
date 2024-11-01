@@ -9,7 +9,6 @@ def verificar_contrasena():
     # Inicializar variable de sesión para almacenar la entrada del usuario
     if "contrasena_ingresada" not in st.session_state:
         st.session_state.contrasena_ingresada = ""
-
     # Input de la contraseña
     contrasena_ingresada = st.text_input("Introduce la contraseña:", type="password")
 
@@ -20,7 +19,6 @@ def verificar_contrasena():
             st.success("Bienvenido")
         else:
             st.error("Contraseña incorrecta, intenta de nuevo")
-
 # Llamada a la función principal
 if __name__ == "__main__":
     verificar_contrasena()
